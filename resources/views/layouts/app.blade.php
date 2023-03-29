@@ -30,13 +30,13 @@
 		<!-- INTERNAL Switcher css -->
 		<link href="../assets/switcher/css/switcher.css" rel="stylesheet" />
 		<link href="../assets/switcher/demo.css" rel="stylesheet" />
-		<!-- <style>
+		<style>
 			.header-brand-img {
    			height: 2rem;
     		line-height: 2rem;
             vertical-align: middle;
             width: auto;}
-		</style> -->
+		</style>
 	</head
 
 	<body class="ltr app sidebar-mini light-mode">
@@ -522,6 +522,227 @@
 												</a>
 											</div>
 											<!-- FULL-SCREEN -->
+											<!-- <div class="dropdown  d-flex shopping-cart">
+												<a href="javascript:void(0);" class="nav-link icon text-center"  data-bs-toggle="dropdown" aria-expanded="false">
+													<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M9,18c-1.1045532,0-2,0.8954468-2,2s0.8954468,2,2,2c1.1040039-0.0014038,1.9985962-0.8959961,2-2C11,18.8954468,10.1045532,18,9,18z M9,21c-0.5523071,0-1-0.4476929-1-1s0.4476929-1,1-1c0.552124,0.0003662,0.9996338,0.447876,1,1C10,20.5523071,9.5523071,21,9,21z M17,18c-1.1045532,0-2,0.8954468-2,2s0.8954468,2,2,2c1.1040039-0.0014038,1.9985962-0.8959961,2-2C19,18.8954468,18.1045532,18,17,18z M17,21c-0.5523071,0-1-0.4476929-1-1s0.4476929-1,1-1c0.552124,0.0003662,0.9996338,0.447876,1,1C18,20.5523071,17.5523071,21,17,21z M19.4985352,12.0502319l1.9848633-7.4213257c0.0111694-0.0419312,0.0167847-0.085083,0.0167847-0.128479C21.5002441,4.2241211,21.2763062,4.000061,21,4H5.9198608L5.4835205,2.371582C5.4249268,2.1530151,5.2268677,2.0009766,5.0005493,2.0009766H3.5048218C3.5031128,2.0009766,3.501709,2,3.5,2C3.223877,2,3,2.223877,3,2.5S3.223877,3,3.5,3v0.0009766L4.6162109,3l2.579834,9.6288452C7.2546387,12.8477783,7.453064,13,7.6796875,13H11h6.8603516H19c0.8284302,0,1.5,0.6715698,1.5,1.5S19.8284302,16,19,16H5c-0.276123,0-0.5,0.223877-0.5,0.5S4.723877,17,5,17h14c1.3807373,0,2.5-1.1192627,2.5-2.5C21.5,13.2900391,20.6403809,12.2813721,19.4985352,12.0502319z M18.4761963,12h-0.6158447H11H8.0634766L6.1878052,5h14.1608276L18.4761963,12z"/></svg>
+													<span class="badge bg-info header-badge">4</span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+													<div class="drop-heading border-bottom">
+														<div class="d-flex">
+															<h6 class="mt-1 mb-0 fs-15 text-dark">Shopping Cart</h6>
+															<div class="ms-auto">
+																<span class="xm-title badge bg-secondary text-white fw-normal fs-11 badge-pill"> <a href="javascript:void(0);" class="showall-text text-white">Remove All</a> </span>
+															</div>
+														</div>
+													</div>
+													<div class="header-dropdown-list cart-menu ps4 overflow-hidden">
+														<a class="dropdown-item d-flex p-4" href="cart.html">
+															<span class="avatar avatar-lg br-5 me-3 align-self-center cover-image" data-bs-image-src="../assets/images/ecommerce/1.jpg"></span>
+															<div class="wp-60 cart-desc mt-1">
+																<p class="fs-13 mb-0 lh-1 mb-1 text-dark fw-500">TrueBasket Metal Single Pot</p>
+																<p class="fs-12 fw-300 lh-1 mb-0">Status: <span class="text-green">In Stock</span></p>
+																<span class="fs-12 fw-300 lh-1 mb-0">Quantity: 01</span>
+															</div>
+															<div class="ms-auto text-end d-flex fs-16">
+																<span class="fs-16 text-dark d-none d-sm-block fw-semibold">
+																	$129
+																</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex p-4" href="cart.html">
+															<span class="avatar avatar-lg br-5 me-3 align-self-center cover-image" data-bs-image-src="../assets/images/ecommerce/2.jpg"></span>
+															<div class="wp-60 cart-desc mt-1">
+																<p class="fs-13 mb-0 lh-1 mb-1 text-dark fw-500">Authentic chair with Canopy</p>
+																<p class="fs-12 fw-300 lh-1 mb-0">Status: <span class="text-green">In Stock</span></p>
+																<span class="fs-12 fw-300 lh-1 mb-0">Quantity: 03</span>
+															</div>
+															<div class="ms-auto text-end d-flex fs-16">
+																<span class="fs-16 text-dark d-none d-sm-block fw-semibold">
+																	$99
+																</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex p-4" href="cart.html">
+															<span class="avatar avatar-lg br-5 me-3 align-self-center cover-image" data-bs-image-src="../assets/images/ecommerce/3.jpg"></span>
+															<div class="wp-60 cart-desc mt-1">
+																<p class="fs-13 mb-0 lh-1 mb-1 text-dark fw-500">Casual Sneakers Canvas</p>
+																<p class="fs-12 fw-300 lh-1 mb-0">Status: <span class="text-green">In Stock</span></p>
+																<span class="fs-12 fw-300 lh-1 mb-0">Quantity: 03</span>
+															</div>
+															<div class="ms-auto text-end d-flex fs-16">
+																<span class="fs-16 text-dark d-none d-sm-block fw-semibold">
+																	$299
+																</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex p-4" href="cart.html">
+															<span class="avatar avatar-lg br-5 me-3 align-self-center cover-image" data-bs-image-src="../assets/images/ecommerce/4.jpg"></span>
+															<div class="wp-60 cart-desc mt-1">
+																<p class="fs-13 mb-0 lh-1 mb-1 text-dark fw-500">Branded Head Phones</p>
+																<p class="fs-12 fw-300 lh-1 mb-0">Status: <span class="text-danger">No Stock</span></p>
+																<span class="fs-12 fw-300 lh-1 mb-0">Quantity: 01</span>
+															</div>
+															<div class="ms-auto text-end d-flex fs-16">
+																<span class="fs-16 text-dark d-none d-sm-block fw-semibold">
+																	$249
+																</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex p-4" href="cart.html">
+															<span class="avatar avatar-lg br-5 me-3 align-self-center cover-image" data-bs-image-src="../assets/images/ecommerce/5.jpg"></span>
+															<div class="wp-60 cart-desc mt-1">
+																<p class="fs-13 mb-0 lh-1 mb-1 text-dark fw-500">camera lens (16mm f/1.4)</p>
+																<p class="fs-12 fw-300 lh-1 mb-0">Status: <span class="text-green">In Stock</span></p>
+																<span class="fs-12 fw-300 lh-1 mb-0">Quantity: 02</span>
+															</div>
+															<div class="ms-auto text-end d-flex fs-16">
+																<span class="fs-16 text-dark d-none d-sm-block fw-semibold">
+																	$1,279
+																</span>
+															</div>
+														</a>
+													</div>
+													<div class="dropdown-divider m-0"></div>
+													<div class="text-center p-3">
+														<a class="btn btn-primary">Checkout</a>
+													</div>
+												 </div>
+											</div> -->
+											<!-- CART -->
+											<!-- <div class="dropdown d-md-flex message">
+												<a href="javascript:void(0);" class="nav-link icon text-center" data-bs-toggle="dropdown" aria-expanded="false">
+													<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M17.4541016,11H6.5458984c-0.276123,0-0.5,0.223877-0.5,0.5s0.223877,0.5,0.5,0.5h10.9082031c0.276123,0,0.5-0.223877,0.5-0.5S17.7302246,11,17.4541016,11z M19.5,2h-15C3.119812,2.0012817,2.0012817,3.119812,2,4.5v11c0.0012817,1.380188,1.119812,2.4987183,2.5,2.5h12.7930298l3.8534546,3.8535156C21.2402344,21.9473267,21.3673706,22,21.5,22c0.276123,0,0.5-0.223877,0.5-0.5v-17C21.9987183,3.119812,20.880188,2.0012817,19.5,2z M21,20.2929688l-3.1464844-3.1464844C17.7597656,17.0526733,17.6326294,17,17.5,17h-13c-0.828064-0.0009155-1.4990845-0.671936-1.5-1.5v-11C3.0009155,3.671936,3.671936,3.0009155,4.5,3h15c0.828064,0.0009155,1.4990845,0.671936,1.5,1.5V20.2929688z M17.4541016,8H6.5458984c-0.276123,0-0.5,0.223877-0.5,0.5s0.223877,0.5,0.5,0.5h10.9082031c0.276123,0,0.5-0.223877,0.5-0.5S17.7302246,8,17.4541016,8z"/></svg>
+													<span class="pulse-danger"></span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow" data-bs-popper="none">
+													<div class="drop-heading border-bottom">
+														<div class="d-flex">
+															<h6 class="mt-1 mb-0 fs-15 text-dark">Messages</h6>
+															<div class="ms-auto">
+																<span class="xm-title badge bg-secondary text-white fw-normal fs-11 badge-pill"> <a href="javascript:void(0);" class="showall-text text-white">Clear</a> </span>
+															</div>
+														</div>
+													</div>
+													<div class="message-menu ps2 overflow-hidden">
+														<a class="dropdown-item d-flex" href="chat.html">
+															<span class="avatar avatar-md brround me-3 align-self-center cover-image" data-bs-image-src="../assets/images/users/1.jpg" style="background: url(&quot;../assets/images/users/1.jpg&quot;) center center;"></span>
+															<div class="wd-90p">
+																<div class="d-flex">
+																	<h5 class="mb-1">Hawaii Hilton</h5>
+																	<small class="text-muted ms-auto text-end"> 11.07 am </small>
+																</div>
+																<span class="fs-12 text-muted">Wanted to submit project by tomorrow....</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex" href="chat.html">
+															<span class="avatar avatar-md brround me-3 align-self-center cover-image" data-bs-image-src="../assets/images/users/15.jpg" style="background: url(&quot;../assets/images/users/15.jpg&quot;) center center;">
+															</span>
+															<div class="wd-90p">
+																<div class="d-flex">
+																	<h5 class="mb-1">Hermoini</h5>
+																	<small class="text-muted ms-auto text-end"> 12.32 am </small>
+																</div>
+																<span class="fs-12 text-muted">Planning for next big update......</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex" href="chat.html">
+															<span class="avatar avatar-md brround me-3 align-self-center cover-image" data-bs-image-src="../assets/images/users/12.jpg" style="background: url(&quot;../assets/images/users/12.jpg&quot;) center center;">
+															</span>
+															<div class="wd-90p">
+																<div class="d-flex">
+																	<h5 class="mb-1">Buenda osas</h5>
+																	<small class="text-muted ms-auto text-end"> 2:17 am </small>
+																</div>
+																<span class="fs-12 text-muted">Ready to submit future data...</span>
+															</div>
+														</a>
+														<a class="dropdown-item d-flex" href="chat.html">
+															<span class="avatar avatar-md brround me-3 align-self-center cover-image" data-bs-image-src="../assets/images/users/4.jpg" style="background: url(&quot;../assets/images/users/4.jpg&quot;) center center;">
+															</span>
+															<div class="wd-90p">
+																<div class="d-flex">
+																	<h5 class="mb-1">Gabby gibson</h5>
+																	<small class="text-muted ms-auto text-end"> 7:55 am </small>
+																</div>
+																<span class="fs-12 text-muted">Cleared all statistics from last year......</span>
+															</div>
+														</a>
+													</div>
+													<div class="dropdown-divider m-0"></div>
+													<div class="text-center p-3">
+														<a class="btn btn-primary">View All Messages</a>
+													</div>
+												</div>
+											</div> -->
+											<!-- Messages-->
+											<!-- <div class="dropdown d-md-flex notifications">
+												<a class="nav-link icon" data-bs-toggle="dropdown">
+													<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M18,14.1V10c0-3.1-2.4-5.7-5.5-6V2.5C12.5,2.2,12.3,2,12,2s-0.5,0.2-0.5,0.5V4C8.4,4.3,6,6.9,6,10v4.1c-1.1,0.2-2,1.2-2,2.4v2C4,18.8,4.2,19,4.5,19h3.7c0.5,1.7,2,3,3.8,3c1.8,0,3.4-1.3,3.8-3h3.7c0.3,0,0.5-0.2,0.5-0.5v-2C20,15.3,19.1,14.3,18,14.1z M7,10c0-2.8,2.2-5,5-5s5,2.2,5,5v4H7V10z M13,20.8c-1.6,0.5-3.3-0.3-3.8-1.8h5.6C14.5,19.9,13.8,20.5,13,20.8z M19,18H5v-1.5C5,15.7,5.7,15,6.5,15h11c0.8,0,1.5,0.7,1.5,1.5V18z"/></svg>
+													<span class=" pulse"></span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+													<div class="drop-heading border-bottom">
+														<div class="d-flex">
+															<h6 class="mt-1 mb-0 fs-15 text-dark">Notifications</h6>
+															<div class="ms-auto">
+																<span class="xm-title badge bg-secondary text-white fw-normal fs-11 badge-pill"> <a href="javascript:void(0);" class="showall-text text-white">Clear</a> </span>
+															</div>
+														</div>
+													</div>
+													<div class="notifications-menu ps3 overflow-hidden">
+														<a class="dropdown-item" href="chat.html">
+															<div class="notification-each d-flex">
+																<div class="me-3 notifyimg  bg-primary brround">
+																	<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M17.4541016,11H6.5458984c-0.276123,0-0.5,0.223877-0.5,0.5s0.223877,0.5,0.5,0.5h10.9082031c0.276123,0,0.5-0.223877,0.5-0.5S17.7302246,11,17.4541016,11z M19.5,2h-15C3.119812,2.0012817,2.0012817,3.119812,2,4.5v11c0.0012817,1.380188,1.119812,2.4987183,2.5,2.5h12.7930298l3.8534546,3.8535156C21.2402344,21.9473267,21.3673706,22,21.5,22c0.276123,0,0.5-0.223877,0.5-0.5v-17C21.9987183,3.119812,20.880188,2.0012817,19.5,2z M21,20.2929688l-3.1464844-3.1464844C17.7597656,17.0526733,17.6326294,17,17.5,17h-13c-0.828064-0.0009155-1.4990845-0.671936-1.5-1.5v-11C3.0009155,3.671936,3.671936,3.0009155,4.5,3h15c0.828064,0.0009155,1.4990845,0.671936,1.5,1.5V20.2929688z M17.4541016,8H6.5458984c-0.276123,0-0.5,0.223877-0.5,0.5s0.223877,0.5,0.5,0.5h10.9082031c0.276123,0,0.5-0.223877,0.5-0.5S17.7302246,8,17.4541016,8z"/></svg>
+																</div>
+																<div>
+																	<span class="notification-label mb-1">New Message Received</span>
+																	<span class="notification-subtext text-muted">2 hours ago</span>
+																</div>
+															</div>
+														</a>
+														<a class="dropdown-item" href="chat.html">
+															<div class="notification-each d-flex">
+																<div class="me-3 notifyimg  bg-secondary brround">
+																	<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M17.5078125,22.9736328h-12.5c-2.2081909-0.0023804-3.9976196-1.7918091-4-4v-8.5c0-0.276123-0.223877-0.5-0.5-0.5s-0.5,0.223877-0.5,0.5v8.5c0.0032349,2.7600708,2.2399292,4.9967651,5,5h12.5c0.276123,0,0.5-0.223877,0.5-0.5S17.7839355,22.9736328,17.5078125,22.9736328z M21.0078125,3.9736328h-14c-1.6561279,0.0018311-2.9981689,1.3438721-3,3v10c0.0018311,1.6561279,1.3438721,2.9981689,3,3h14c1.6561279-0.0018311,2.9981689-1.3438721,3-3v-10C24.0059814,5.3175049,22.6639404,3.9754639,21.0078125,3.9736328z M7.0078125,4.9736328h14c0.3700562,0.0004883,0.7122192,0.1081543,1.0094604,0.2835693l-6.9489136,6.9489136c-0.5864868,0.5839844-1.534668,0.5839844-2.1210938,0L5.9985962,5.256958C6.2957764,5.081665,6.6378784,4.9740601,7.0078125,4.9736328z M23.0078125,16.9736328c-0.0014038,1.1039429-0.8959961,1.9985352-2,2h-14c-1.1040649-0.0012817-1.9987183-0.8959351-2-2v-10c0.0004272-0.3701782,0.1082153-0.7124634,0.2836914-1.0097656l6.9487305,6.9492188c0.4683838,0.4692993,1.1045532,0.7325439,1.7675781,0.7314453c0.6630249,0.0010986,1.2991333-0.262146,1.7675781-0.7314453l6.9488525-6.9489136c0.175415,0.2972412,0.2830811,0.6394043,0.2835693,1.0094604V16.9736328z"/></svg>
+																</div>
+																<div>
+																	<span class="notification-label mb-1">New Mail Received</span>
+																	<span class="notification-subtext text-muted">1 week ago</span>
+																</div>
+															</div>
+														</a>
+														<a class="dropdown-item" href="cart.html">
+															<div class="notification-each d-flex">
+																<div class="me-3 notifyimg  bg-info brround">
+																	<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M19.5,7H16V5.9169922c0-2.2091064-1.7908325-4-4-4s-4,1.7908936-4,4V7H4.5C4.4998169,7,4.4996338,7,4.4993896,7C4.2234497,7.0001831,3.9998169,7.223999,4,7.5V19c0.0018311,1.6561279,1.3438721,2.9981689,3,3h10c1.6561279-0.0018311,2.9981689-1.3438721,3-3V7.5c0-0.0001831,0-0.0003662,0-0.0006104C19.9998169,7.2234497,19.776001,6.9998169,19.5,7z M9,5.9169922c0-1.6568604,1.3431396-3,3-3s3,1.3431396,3,3V7H9V5.9169922z M19,19c-0.0014038,1.1040039-0.8959961,1.9985962-2,2H7c-1.1040039-0.0014038-1.9985962-0.8959961-2-2V8h3v2.5C8,10.776123,8.223877,11,8.5,11S9,10.776123,9,10.5V8h6v2.5c0,0.0001831,0,0.0003662,0,0.0005493C15.0001831,10.7765503,15.223999,11.0001831,15.5,11c0.0001831,0,0.0003662,0,0.0006104,0C15.7765503,10.9998169,16.0001831,10.776001,16,10.5V8h3V19z"/></svg>
+																</div>
+																<div>
+																	<span class="notification-label mb-1">New Order Received</span>
+																	<span class="notification-subtext text-muted">1 day ago</span>
+																</div>
+															</div>
+														</a>
+														<a class="dropdown-item" href="blog-details.html">
+															<div class="notification-each d-flex">
+																<div class="me-3 notifyimg  bg-warning brround">
+																	<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M8,13c-0.276123,0-0.5,0.223877-0.5,0.5v2c0,0.0001831,0,0.0003662,0,0.0005493C7.5001831,15.7765503,7.723999,16.0001831,8,16c0.0001831,0,0.0003662,0,0.0006104,0C8.2765503,15.9998169,8.5001831,15.776001,8.5,15.5v-2C8.5,13.223877,8.276123,13,8,13z M12,10c-0.276123,0-0.5,0.223877-0.5,0.5v5c0,0.0001831,0,0.0003662,0,0.0005493C11.5001831,15.7765503,11.723999,16.0001831,12,16c0.0001831,0,0.0003662,0,0.0006104,0c0.2759399-0.0001831,0.4995728-0.223999,0.4993896-0.5v-5C12.5,10.223877,12.276123,10,12,10z M19.4152832,5.2902832c-3.7055054-4.09552-10.02948-4.4117432-14.125-0.7062988c-4.09552,3.7055054-4.4117432,10.02948-0.7062988,14.125l-2.4375,2.4375c-0.09375,0.09375-0.1464233,0.2208862-0.1464233,0.3534546C2,21.776062,2.223877,21.999939,2.5,22H12c2.4794312-0.000061,4.8704224-0.9212646,6.7089844-2.5847168C22.8045654,15.7097778,23.1207275,9.3858032,19.4152832,5.2902832z M12,21H3.7069702l1.928772-1.9287109c0.000061-0.000061,0.0001221-0.0001221,0.0001221-0.0001831c0.1951904-0.1952515,0.1951294-0.5117188-0.0001221-0.7068481C3.9483643,16.6768799,3.0002441,14.3883667,3,12.0020142c-0.0005493-4.9700317,4.0279541-8.9994507,8.9979858-9c4.9699707-0.0005493,8.9994507,4.0279541,9,8.9979858C20.9985352,16.9699707,16.9700317,20.9994507,12,21z M16,8c-0.276123,0-0.5,0.223877-0.5,0.5v7c0,0.0001831,0,0.0003662,0,0.0005493C15.5001831,15.7765503,15.723999,16.0001831,16,16c0.0001831,0,0.0003662,0,0.0006104,0c0.2759399-0.0001831,0.4995728-0.223999,0.4993896-0.5v-7C16.5,8.223877,16.276123,8,16,8z"/></svg>
+																</div>
+																<div>
+																	<span class="notification-label mb-1">New Comment Received</span>
+																	<span class="notification-subtext text-muted">1 day ago</span>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class="dropdown-divider m-0"></div>
+													<div class="text-center p-3">
+														<a class="btn btn-primary">View All Notifications</a>
+													</div>
+												</div>
+											</div> -->
+											<!-- NOTIFICATIONS -->
 											<div class="dropdown d-md-flex profile-1">
 												<a href="#" data-bs-toggle="dropdown" class="nav-link pe-2 leading-none d-flex animate">
 													<span>
@@ -533,7 +754,7 @@
 													</div>
 												</a>
 												<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-													<a class="dropdown-item" href="{{ route('profile.index') }}">
+													<a class="dropdown-item" href="profile.html">
 														<svg xmlns="http://www.w3.org/2000/svg" class="w-inner-icn" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M14.6650391,13.3672485C16.6381226,12.3842773,17.9974365,10.3535767,18,8c0-3.3137207-2.6862793-6-6-6S6,4.6862793,6,8c0,2.3545532,1.3595581,4.3865967,3.3334961,5.3690186c-3.6583862,1.0119019-6.5859375,4.0562134-7.2387695,8.0479736c-0.0002441,0.0013428-0.0004272,0.0026855-0.0006714,0.0040283c-0.0447388,0.272583,0.1399536,0.5297852,0.4125366,0.5745239c0.272522,0.0446777,0.5297241-0.1400146,0.5744629-0.4125366c0.624939-3.8344727,3.6308594-6.8403931,7.465332-7.465332c4.9257812-0.8027954,9.5697632,2.5395508,10.3725586,7.465332C20.9594727,21.8233643,21.1673584,21.9995117,21.4111328,22c0.0281372,0.0001831,0.0562134-0.0021362,0.0839844-0.0068359h0.0001831c0.2723389-0.0458984,0.4558716-0.303833,0.4099731-0.5761719C21.2677002,17.5184937,18.411377,14.3986206,14.6650391,13.3672485z M12,13c-2.7614136,0-5-2.2385864-5-5s2.2385864-5,5-5c2.7600708,0.0032349,4.9967651,2.2399292,5,5C17,10.7614136,14.7614136,13,12,13z"/></svg>
 														Profile
 													</a>
@@ -569,7 +790,7 @@
 								<img src="../assets/images/brand/logo-admin.png" class="header-brand-img desktop-logo" alt="logo">
 								<img src="../assets/images/brand/logo-1.png" class="header-brand-img toggle-logo" alt="logo">
 								<img src="../assets/images/brand/logo-2.png" class="header-brand-img light-logo" alt="logo">
-								<img src="../assets/images/brand/logo.png" class="header-brand-img light-logo1" alt="logo">
+								<img src="../assets/images/brand/logo-admin.png" class="header-brand-img light-logo1" alt="logo">
 							</a><!-- LOGO -->
 						</div>
 						<div class="main-sidemenu">
@@ -949,11 +1170,8 @@
 
 							<!-- ROW-1 OPEN -->
 							<div class="row">
-								<div class="card">
-									<div class="card-body">
-										<h5>Hello,welcome to spruko.</h5>
-									</div>
-								</div>
+                            @yield('content')
+							
 							</div>
 
 						</div>

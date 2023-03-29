@@ -19,8 +19,11 @@ Route::get('registration', [CustomAuthController::class, 'registration'])->name(
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
 Route::get('dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
-Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+Route::get('logout', [CustomAuthController::class, 'signOut'])->name('logout');
 
+
+//Route untuk profile
+Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile.index');
 
 
 

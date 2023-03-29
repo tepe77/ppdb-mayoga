@@ -21,6 +21,9 @@ class CustomAuthController extends Controller
       
     public function customLogin(Request $request)
     {
+        $customMessages = [
+          'required' => 'Wajib Diisi.'
+	      ];
         $request->validate([
             'email' => 'required',
             'password' => 'required',
@@ -30,8 +33,12 @@ class CustomAuthController extends Controller
         if (Auth::attempt($credentials)) {
             return redirect('dashboard')->withSuccess('Signed in');
         }
-  
-        return redirect("login")->withSuccess('Login details are not valid');
+        
+            return redirect('login')
+            ->withInput()
+            ->withErrors(['login_gagal'=>'Username atau Password tidak cocok']);
+        
+       
     }
 
     public function registration()

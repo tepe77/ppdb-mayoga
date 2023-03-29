@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>
-
 		<!-- META DATA -->
 		<meta charset="UTF-8">
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
@@ -59,6 +58,9 @@
 										<span class="symbol-input100">
 											<i class="zmdi zmdi-email" aria-hidden="true"></i>
 										</span>
+										@if ($errors->has('email'))
+                                <span class="text-danger">{{ $errors->first('email') }}</span>
+                                @endif
 									</div>
 									<div class="wrap-input100 validate-input" data-bs-validate = "Password is required">
 										<input class="input100" type="password" name="password" id="password" placeholder="Password">
@@ -66,6 +68,9 @@
 										<span class="symbol-input100">
 											<i class="zmdi zmdi-lock" aria-hidden="true"></i>
 										</span>
+										@if ($errors->has('password'))
+                                <span class="text-danger">{{ $errors->first('password') }}</span>
+                                @endif
 									</div>
 									<div class="text-end pt-1">
 										<p class="mb-0"><a href="forgot-password.html" class="text-primary ms-1">Forgot Password?</a></p>
